@@ -1,3 +1,13 @@
+const instructions = document.getElementById("instructions");
+const artGrid = document.getElementById("art-grid");
+const startBtn = document.getElementById("start");
+
+artGrid.style.display = "none";
+startBtn.addEventListener("click", () => {
+  instructions.style.display = "none";
+  artGrid.style.display = "block";
+});
+
 function PixelArt(el, rows, cols) {
   const ROWS = rows + 1,
     COLS = cols;

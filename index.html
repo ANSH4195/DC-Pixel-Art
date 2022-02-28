@@ -8,7 +8,24 @@
     <title>Pixel Art Grid</title>
   </head>
   <body>
-    <div>
+    <div id="instructions">
+      <h1>Welcome to Pixel Art</h1>
+      <h3>Here are the rules:</h3>
+      <ul>
+        <li>
+          First select a color from the bottom row. Selected color will be
+          marked with a "#".
+        </li>
+        <li>
+          Now you can either click a block to fill it with color or you can drag
+          over multiple blocks to fill all of them.
+        </li>
+        <li>Messed up? Clear and go again!</li>
+      </ul>
+      <button id="start">Start your Art</button>
+    </div>
+
+    <div id="art-grid">
       <div id="grid"></div>
       <button id="clear">Clear</button>
     </div>
