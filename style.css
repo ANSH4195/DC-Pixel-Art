@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: black;
+  color: #fff;
+}
+
+#grid {
+  display: grid;
+  grid-gap: 3px;
+  background: #888888;
+  padding: 3px;
+}
+
+.grid-item {
+  background: #333333;
+  cursor: pointer;
+}
+
+.color-palette-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  font-weight: bolder;
+}
+
+#clear {
+  margin-top: 10px;
+  padding: 5px 10px;
+}
